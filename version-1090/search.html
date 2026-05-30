@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索-欧美最新电影-最新电影大全-高清视频在线播放</title>
+  <meta name="description" content="搜索欧美最新电影、热门电影、高清播放与站内更新片单。">
+  <meta name="keywords" content="欧美最新电影,欧美电影,最新电影大全,高清播放,电影更新,热门电影,影片搜索">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="./index.html" aria-label="欧美最新电影">
+      <span class="brand-mark">▶</span>
+      <span>欧美最新电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./rankings.html">排行榜</a>
+      <a class="nav-link active" href="./search.html">搜索</a>
+      <a class="nav-link" href="./category-euro-american.html">欧美佳片</a>
+    </nav>
+    <form class="header-search" data-search-form role="search">
+      <input name="q" type="search" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <div class="container mobile-panel-inner">
+      <a class="mobile-link" href="./index.html">首页</a>
+      <a class="mobile-link" href="./categories.html">分类</a>
+      <a class="mobile-link" href="./rankings.html">排行榜</a>
+      <a class="mobile-link" href="./search.html">搜索</a>
+      <a class="mobile-link" href="./category-euro-american.html">欧美佳片</a>
+      <form class="mobile-search" data-search-form role="search">
+        <input name="q" type="search" placeholder="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<section class="page-hero">
+  <div class="container">
+    <div class="section-kicker">Search</div>
+    <h1>影片搜索</h1>
+    <p>输入影片名、地区、年份、类型或标签，快速查找站内影视内容。</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <form class="search-panel" role="search" onsubmit="return false;">
+      <input data-global-search type="search" placeholder="搜索影片、类型、地区、年份" aria-label="搜索影片">
+      <button type="button">实时搜索</button>
+    </form>
+    <div class="movie-grid" data-search-results></div>
+    <div class="empty-message" data-search-empty>没有找到匹配的影片。</div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="./index.html">
+        <span class="brand-mark">▶</span>
+        <span>欧美最新电影</span>
+      </a>
+      <p>欧美最新电影栏目收录近期欧美影片，覆盖多类型内容、热门条目与站内更新片单。</p>
+    </div>
+    <div>
+      <h2>影视分类</h2>
+      <div class="footer-links">
+      <a href="./category-euro-american.html">欧美佳片</a>
+      <a href="./category-suspense-crime.html">悬疑犯罪</a>
+      <a href="./category-comedy-life.html">喜剧生活</a>
+      <a href="./category-romance-urban.html">爱情都市</a>
+      <a href="./category-action-adventure.html">动作冒险</a>
+      <a href="./category-fantasy-sci-fi.html">奇幻科幻</a>
+      <a href="./category-thriller-horror.html">惊悚恐怖</a>
+      <a href="./category-history-costume.html">历史古装</a>
+      </div>
+    </div>
+    <div>
+      <h2>热门入口</h2>
+      <div class="footer-links">
+        <a href="./rankings.html">热门排行榜</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+    </div>
+  </div>
+  <div class="container copyright">© 2026 欧美最新电影 · 高清视频在线播放</div>
+</footer>
+<script src="./assets/search-index.js"></script>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
